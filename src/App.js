@@ -11,6 +11,7 @@ import Code from './components/Code/Code';
 
 
 function App() {
+  fetch(process.env.REACT_APP_API_URL || 'http://localhost:8080/api/v1').then(() => console.log('deu certo')).catch(() => console.log('deu erro'))
   return (
     <div className='container-main'>
       <Header />
