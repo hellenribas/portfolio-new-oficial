@@ -1,0 +1,167 @@
+
+.header {
+  background-color: black;
+  color: white;
+  font-family: 'Space Mono', monospace; 
+  padding: 2.5% 0;
+}
+
+ .header, .logo-marca, .nav, .links-nav, .links-li, .text-web-developer {
+  display: flex;
+}
+
+.logo-marca img {
+  width: 6.67744rem;
+  height: 6.67744rem;
+  margin-right: 4%;
+}
+
+.logo-marca h3 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.81rem;
+  line-height: 3rem;
+  letter-spacing: 0em;
+  color: white;
+  --para-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+  --head-indent: 0;
+  --numeric-list-marker: none;
+  list-style-type: none;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 58%;
+  margin-right: 9%; 
+}
+
+.links-nav {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-marca {
+  width: 180%;
+  justify-content: center;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.rwd-text, .text-web-developer {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  font-size: 1.9rem;
+  color: rgb(255, 255, 255);
+  word-spacing: 0.2rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05em;
+  --para-spacing: 0;
+  text-transform: uppercase;
+  --head-indent: 0;
+  --numeric-list-marker: none;
+  list-style-type: none;
+}
+
+.text-web-developer {
+  width: 13%;
+  letter-spacing: 0.12rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-bottom: solid #f6542c96 0.2rem ;
+  margin-right: 3%;
+  font-size: 2rem;
+  padding-bottom: 0.3%;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav li:hover {
+  color: rgb(182, 182, 182);
+}
+
+@media only screen and (max-width: 128rem) {
+  html {
+    font-size: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 88.4rem) {
+  html {
+    font-size: 40%;
+  }
+  .nav {
+    width: 90%;
+    margin-right: 0%; 
+
+  }
+
+  .text-web-developer {
+    font-size: 1rem;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 42.8rem) {
+  html {
+    font-size: 20%;
+  }
+  .nav {
+    width: 95%;
+  }
+
+  .nav li {
+    font-size: 100%;
+  }
+
+  .links-nav {
+    justify-content: space-around;
+  }
+  .header {
+  justify-content: space-around;
+
+  }
+  .logo-marca  {
+    flex-direction: column;
+  }
+
+  .logo-marca h3 {
+    display: none;
+  }
+  .logo-marca img {
+    margin-right: 1%;
+  }
+  @media only screen and (max-width: 36rem) {
+    html {
+      font-size: 19%;
+    }
+
+    .nav li {
+      font-size: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 32rem) {
+    html {
+      font-size: 17%;
+    }
+
+    .nav li {
+      font-size: 87%;
+    }
+  }
+}

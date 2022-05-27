@@ -1,0 +1,262 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  color: white;
+  background-color: black;
+  background-image: url(../images/marca-fundo.png);
+  background-position: 113% 0%;
+  background-size: 81.46rem 118.87rem;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5%;
+  margin-left: 4%
+} 
+
+.contact h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5.08rem;
+  font-weight: 800;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-contact {
+  margin: 2% 0%;
+  padding: 2%;
+  height: 5.5rem;
+  font-size: 2.5rem;
+}
+
+.input-contact-area {
+  margin: 1% 0%;
+  height: 26.5rem;
+  resize: none;
+} 
+
+.btn-submit {
+  width: 36%;
+  height: 16%;
+  border-radius: 7rem;
+  transform-origin: 25rem 10rem;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  font-weight: 700;
+  background-image: url('../images/fundo-button.jpg');
+  background-position: 30% 40%;
+  background-size: cover;
+  text-align: center;
+  font-size: 2.7rem;
+  margin-top: 3%;
+}
+
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.logo {
+  display: flex;
+  margin-left: 7%; 
+  margin-bottom: 2% ;
+}
+
+.logo img {
+  width: 21rem;
+  height: 20rem;
+  margin-top: 8%;
+}
+
+.logo h2 {
+  align-self: center;
+  font-family: 'Space Mono', monospace;
+  margin-top: 10%;
+  font-size: 8rem;
+  margin-left: 10%;
+}
+
+.data-me {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 15%;
+  margin-bottom: 4%;
+
+}
+
+.data-me h3 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.data-me p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #ea5d3c
+}
+
+.data-me p span {
+  margin: 2%;
+}
+
+.user-me, .email-me, .number-me p, .social-media {
+  display: flex;
+  margin: 1% 0%;
+}
+
+.number-me p {
+  align-items: center;
+}
+
+.user-me {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-user {
+  width: 3.5rem;
+  height: 3.8rem;
+  margin-right: 5%;
+  color: white;
+}
+
+.social-media {
+  margin-left: 15%;
+
+}
+
+.logo-social {
+  color: white;
+  width: 11rem;
+  height: 11rem;
+}
+
+.linkedin {
+  width: 12rem;
+  height: 12rem;
+  margin-left: 20%;
+}
+
+.loading {
+  font-size: 2rem;
+  width: 20%;
+  margin-left: 25rem ;
+  color: #ea5d3c;
+}
+
+.message {
+  font-size: 1.8rem;
+  margin-top: 1.5%;
+  font-weight: 400;
+  font-family: 'Space Mono', monospace;
+}
+
+.input-contact::-webkit-input-placeholder {color: #ea5d3c; font-size: 3rem; font-family: 'Open Sans', sans-serif; padding-left: 1%;}
+
+@media only screen and (max-width: 128rem) {
+  html {
+    font-size: 60%;
+    height: 100%;
+  }
+
+  body, #root, .project-tech {
+    height: 100%;
+  }
+  
+ }
+
+@media only screen and (max-width: 88.4rem) {
+  html {
+    font-size: 40%;
+    height: 100%;
+  }
+
+  body, #root, .contact-container {
+    height: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: none;
+  }
+  .contact {
+    width: 94%;
+  }
+  .contact form button {
+    align-self: center;
+  }
+
+  .contact-data {
+    align-items: flex-end;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+  }
+  .social-media {
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .logo {
+    align-self: flex-start;
+  }
+}
+
+@media only screen and (max-width: 42.8rem) {
+ html {
+    font-size: 30%;
+    height: 100%;
+  }
+
+  body, #root, .project-tech {
+    height: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+}
+
+  @media only screen and (max-width: 36rem) {
+    html {
+      font-size: 26%;
+      height: 100%;
+    }
+
+    body, #root, .project-tech {
+      height: 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 32rem) {
+    html {
+      font-size: 23%;
+      height: 100%;
+      width: 100%;
+    }
+    body, #root, .contact-container {
+      height: 100%;
+      width: 100%;
+    }
+
+  }
+

@@ -1,0 +1,94 @@
+.class {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: white;
+  background-color: black;
+  background-image: url(../images/marca-fundo.png);
+  background-position: 113% 0%;
+  background-size: 81.46rem 118.87rem;
+  background-repeat: no-repeat;
+}
+
+.class h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5.08rem;
+  font-weight: 800;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 1%;
+}
+
+.class h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10rem;
+  font-weight: 400;
+  color: #ea5d3c;
+  margin-left: 4%;
+}
+
+@media only screen and (max-width: 128rem) {
+  html {
+    font-size: 60%;
+    height: 100%;
+  }
+
+  body, #root, .project-tech {
+    height: 100%;
+  }
+  
+ }
+
+@media only screen and (max-width: 88.4rem) {
+  html {
+    font-size: 40%;
+    height: 100%;
+  }
+
+  body, #root, .project-tech {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 42.8rem) {
+ html {
+    font-size: 30%;
+    height: 100%;
+  }
+
+  body, #root, .project-tech {
+    height: 100%;
+  }
+}
+
+  @media only screen and (max-width: 36rem) {
+    html {
+      font-size: 26%;
+      height: 100%;
+    }
+
+    body, #root, .project-tech {
+      height: 100%;
+    }
+
+    .class {
+      background-position: -80% 80%;
+      background-size: 120% 100%;
+    }
+
+  }
+
+  @media only screen and (max-width: 32rem) {
+    html {
+      font-size: 23%;
+      height: 100%;
+      width: 100%;
+    }
+    body, #root, .project-tech {
+      height: 100%;
+      width: 100%;
+
+    }
+  }

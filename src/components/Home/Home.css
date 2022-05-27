@@ -1,0 +1,238 @@
+@font-face {
+  font-family: Moontime;
+  src: url('../Moontime/MoonTime\ Regular\ 400.otf');
+}
+
+.main-content {
+  display: flex;
+  color: white;
+  background-color: black;
+  background-image: url(../images/marca-fundo.png);
+  background-position: 113% 0%;
+  background-size: 83.46rem 120.87rem;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 100%;
+}
+
+.meet, .text-apres {
+  display: flex;
+  flex-direction: column;
+}
+
+.meet {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.web-text, .name-logo {
+  margin-left: 1%;
+}
+
+.hello {
+  font-size: 5.08rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  width: 74rem;
+}
+
+.name-logo {
+  font-size: 7.61rem;
+  font-weight: 200;
+  font-family: Moontime;
+  text-shadow: 1vw 1vw 1vw #000, 0 0 1vw #ffe7e1, 0 0 1vw #f631009f, 0 0 1vw #f63300;
+  margin-left: 2%;
+}
+
+.iam-web {
+  font-size: 4.999rem;
+}
+
+.iam-web, .web-text {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+.web-text {
+  margin-left: 3%;
+  color: rgb(246, 86, 44);
+}
+
+.text-apres {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-left: 22%;
+}
+
+.about-me {
+  font-family: 'Space Mono', monospace;
+  font-size: 2.7rem;
+  width: 38.7571rem;
+  font-weight: 700;
+  height: 18rem;
+  text-align: center;
+  border-radius: 10rem;
+  transform-origin: 25rem 10rem;
+  background-image: url('../images/fundo-button.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 15%;
+}
+
+.about-me-text {
+  display: flex;
+  width: 48rem;
+  font-size: 2.7rem;
+  margin-top: 1%;
+}
+
+.me-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 58.2rem;
+  margin-left: 8%;
+}
+
+
+.me {
+  padding-left: 6%;
+  left: 0.5rem;
+  bottom: 80.5rem;
+}
+
+.project img {
+  width: 35rem;
+  height: 15rem;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  object-fit: fill;
+  top: 104.5rem;
+  right: 70rem;
+  transform: rotateX(-180);
+}
+
+.about-me:hover {
+  background-image: url('../images/fundo-button.jpg');
+  background-position: 50% 46%;
+  color: rgba(240, 248, 255, 0.815);
+  cursor: pointer;
+}
+
+.project a {
+  text-decoration: none;
+  color: rgb(246, 86, 44);
+}
+
+.project a:hover {
+  color: rgba(195, 192, 192, 0.781);
+}
+
+ @media only screen and (max-width: 128rem) {
+  html {
+    font-size: 60%;
+  }
+  
+ }
+
+@media only screen and (max-width: 88.4rem) {
+  html {
+    font-size: 40%;
+  }
+  .me-info {
+    margin-top: 20%;
+    margin-left: 4%;
+    width: 53.2rem;
+    height: 50%;
+    justify-content: flex-start;
+  }
+
+  .me {
+    width: 90%;
+    height: 45%;
+  }
+
+  .main-content {
+    background-position: 126% 70%;
+    background-size: 80.46rem 130.87rem;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+
+  .arrow, .project {
+    display: none;
+  }
+
+  .meet {
+    justify-content: space-evenly;
+  }
+
+}
+
+@media only screen and (max-width: 42.8rem) {
+ html {
+    font-size: 30%;
+  }
+  .me-info {
+    order: 1;
+    height: 30%;
+  }
+
+  .me {
+    height: 80%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .main-content {
+    background-position: 206% 30%;
+    background-size: 80.46rem 100%;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .meet {
+    order: 2;
+    margin-top: 10%;
+  }
+
+  .text-apres {
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+  }
+
+  @media only screen and (max-width: 36rem) {
+    html {
+      font-size: 26%;
+    }
+
+    .project img {
+      top: 91rem;
+      right: 30rem;
+    }
+  
+    .project p {
+      top: 77.5rem;
+      right: 20rem;
+    } 
+  
+    .arrow {
+      top: 74.5rem;
+      right: 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 32rem) {
+    html {
+      font-size: 23%;
+    }
+  }
