@@ -35,7 +35,9 @@ export default class Home extends Component {
         </button>
         </section>
         <section className='me-info'>
+          <div className='img-me'>
           <img src={me} alt="hellen-ribas" className='me'/>
+          </div>
         <section className='project'>
           <img src={border} alt="border" />
           {/* <p>Venha conhecer meus projetos</p> */}

@@ -167,87 +167,106 @@
 
 .input-contact::-webkit-input-placeholder {color: #ea5d3c; font-size: 3rem; font-family: 'Open Sans', sans-serif; padding-left: 1%;}
 
-@media only screen and (max-width: 128rem) {
+
+@media only screen and (max-width: 141.4rem) {
   html {
     font-size: 60%;
     height: 100%;
   }
-
-  body, #root, .project-tech {
+  
+  body {
     height: 100%;
+  } 
+  .contact-container {
+    height: 100%;
+    flex-direction: row;
+    background-position: 127% 0%;
+    background-size: 81.46rem 128.87rem;
+  }
+  .contact {
+    margin-right: 4%;
+    justify-content: flex-start;
+  }
+  .contact form {
+    margin-top: 10%;
   }
   
- }
+  .contact-data {
+    justify-content: flex-start;
+    margin-top: 5%;
+  }
+}
 
 @media only screen and (max-width: 88.4rem) {
   html {
     font-size: 40%;
     height: 100%;
   }
-
+  
   body, #root, .contact-container {
     height: 100%;
   }
+  
+}
 
-  .contact-container {
+
+@media only screen and (max-width: 42.8rem) {
+  html {
+    font-size: 30%;
+    height: 100%;
+  }
+  
+  body, #root, .project-tech {
+    height: 100%;
+  }
+
+.contact-container {
     flex-direction: column;
-    justify-content: space-around;
     background-image: none;
-  }
-  .contact {
-    width: 94%;
-  }
-  .contact form button {
+  } 
+.contact {
+    width: 90%;
+  } 
+   .contact form button {
     align-self: center;
-  }
-
-  .contact-data {
+  } 
+  
+   .contact-data {
     align-items: flex-end;
     width: 90%;
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 0%;
-  }
-  .social-media {
+  } 
+   .social-media {
     flex-direction: column;
     height: 100%;
     justify-content: space-around;
   }
-
-  .logo {
+  
+   .logo {
     align-self: flex-start;
-  }
-}
-
-@media only screen and (max-width: 42.8rem) {
- html {
-    font-size: 30%;
-    height: 100%;
-  }
-
-  body, #root, .project-tech {
-    height: 100%;
-  }
-
+  } 
+  
   .logo {
     display: none;
   }
-
+  
 }
 
-  @media only screen and (max-width: 36rem) {
-    html {
-      font-size: 26%;
-      height: 100%;
-    }
-
-    body, #root, .project-tech {
-      height: 100%;
-    }
-
+@media only screen and (max-width: 36rem) {
+  html {
+    font-size: 26%;
+    height: 100%;
   }
+  
+  body, #root, .project-tech {
+    height: 100%;
+  }
+  
+}
 
-  @media only screen and (max-width: 32rem) {
+@media only screen and (max-width: 32rem) {
     html {
       font-size: 23%;
       height: 100%;
@@ -257,6 +276,4 @@
       height: 100%;
       width: 100%;
     }
-
   }
-
