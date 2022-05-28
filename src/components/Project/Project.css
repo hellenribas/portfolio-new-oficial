@@ -94,7 +94,7 @@
   display: none;
 }
 
-.left:hover, .right:hover {
+.left:hover, .right:hover, .add:hover {
   color: #eb542f;
 }
 
@@ -104,6 +104,12 @@
   position: relative;
   right: 0.35rem;
 
+}
+
+.add {
+  color: #ffffff;
+  width: 13rem;
+  height: 13rem;
 }
 
 @media only screen and (max-width: 128rem) {
